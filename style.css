@@ -1,0 +1,55 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+ 
+body{
+    background-color: black;
+    color: white;
+}
+
+.btn{
+    background-color: rgb(219, 117, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 600;
+    color: white;
+}
+
+header {
+  font-size: 40px;
+  text-align: center;
+}
+
+.search {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-quary {
+    width: 310px;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+.busses{
+    width: 90%;
+}
+
+.bus {
+    width: 100%;
+  margin: 10px;
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.293);
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+}

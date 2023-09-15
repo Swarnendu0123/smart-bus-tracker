@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>Bus Tracking System</header>
+    <main>
+      <form action="">
+        <div class="search">
+          <div class="from">
+            <label for="from">From:</label>
+            <select name="choice" id="from">
+              <option value="">Select</option>
+              <option value="arki">Arki</option>
+              <option value="baddi">Baddi</option>
+              <option value="bakloh-cantonment">Bakloh Cantonment</option>
+              <option value="banjar">Banjar</option>
+              <option value="bhota">bhota</option>
+              <option value="bhuntar">bhuntar</option>
+              <option value="bilaspur">bilaspur</option>
+              <option value="chaupal">chaupal</option>
+              <option value="chuari-khas">chuari-khas</option>
+              <option value="dagshai-contonment">dagshai-contonment</option>
+              <option value="dalhousie">dalhousie</option>
+              <option value="daulatpur">daulatpur</option>
+              <option value="dera-gopipur">dera-gopipur</option>
+              <option value="dharm-shala">dharm-shala</option>
+            </select>
+          </div>
+          <div class="to">
+            <label for="to">To:</label>
+            <select name="choice" id="to">
+              <option value="">Select</option>
+              <option value="arki">Arki</option>
+              <option value="baddi">Baddi</option>
+              <option value="bakloh-cantonment">Bakloh Cantonment</option>
+              <option value="banjar">Banjar</option>
+              <option value="bhota">bhota</option>
+              <option value="bhuntar">bhuntar</option>
+              <option value="bilaspur">bilaspur</option>
+              <option value="chaupal">chaupal</option>
+              <option value="chuari-khas">chuari-khas</option>
+              <option value="dagshai-contonment">dagshai-contonment</option>
+              <option value="dalhousie">dalhousie</option>
+              <option value="daulatpur">daulatpur / station1</option>
+              <option value="dera-gopipur">dera-gopipur</option>
+              <option value="dharm-shala">dharm-shala</option>
+            </select>
+          </div>
+          <button class="btn">Swap</button>
+          <button class="btn">Search</button>
+        </div>
+      </form>
+
+      <form action="">
+        <div class="search">
+          <div class="company">
+            <label for="company">Company</label>
+            <select name="choice" id="to">
+              <option value="">select</option>
+              <option value="company-1">company-1</option>
+              <option value="company-2">company-2</option>
+              <option value="company-3">company-3</option>
+            </select>
+          </div>
+          <div class="bus-number">
+            <label for="bus-number">Bus Number</label>
+            <input type="number" id="bus-number" />
+          </div>
+          <button class="btn">Search</button>
+        </div>
+      </form>
+      <div class="result">
+        <div class="search-quary">Search Result : Kharagpur to Delhi </div>
+        <div class="busses">
+          <div class="bus">
+            <div class="res-bus-number">3C/1</div>
+            <div class="res-travel-from">From - Kharagpur (3:00PM)</div>
+            <div class="res-travel-to">To - Delhi (6:45PM)</div>
+            <div class="res-duration">3 hr 45 mints</div>
+            <div class="res-ac">Non - AC</div>
+            <div class="res-price">INR 100</div>
+          </div>
+          <div class="bus">
+            <div class="res-bus-number">3C/1</div>
+            <div class="res-travel-from">From - Kharagpur (5:00PM)</div>
+            <div class="res-travel-to">To - Delhi (8:45PM)</div>
+            <div class="res-duration">3 hr 45 mints</div>
+            <div class="res-ac">Non - AC</div>
+            <div class="res-price">INR 100</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
